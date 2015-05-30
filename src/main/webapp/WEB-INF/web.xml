@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<!DOCTYPE web-app
+    PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.2//EN"
+    "http://java.sun.com/j2ee/dtds/web-app_2_2.dtd">
+	
+<web-app>
+	<display-name>PESACHOICE</display-name>
+	<description>Easy and best way to transfer money with Pesachoice</description>
+	<session-config>
+    	<session-timeout>5</session-timeout>
+  	</session-config>
+	<!-- servlets: -->
+    <servlet>
+    	<servlet-name>SignUpServlet</servlet-name>
+    	<display-name>SignUp</display-name>
+        <servlet-class>com.pesachoice.controller.impl.web.PCSignUpServlet</servlet-class>
+	</servlet>
+	<servlet>
+    	<servlet-name>CommunicationServlet</servlet-name>
+    	<display-name>Communication</display-name>
+        <servlet-class>com.pesachoice.controller.impl.web.PCCommunicationServlet</servlet-class>
+	</servlet>
+    <servlet>
+    	<servlet-name>AdminServlet</servlet-name>
+    	<display-name>Administration</display-name>
+        <servlet-class>com.pesachoice.controller.impl.web.PCAdminServlet</servlet-class>
+	</servlet>
+    <servlet>
+    	<servlet-name>ActivityServlet</servlet-name>
+    	<display-name>Activity</display-name>
+        <servlet-class>com.pesachoice.controller.impl.web.PCActivityServlet</servlet-class>
+	</servlet>
+    <servlet>
+    	<servlet-name>TransferServlet</servlet-name>
+    	<display-name>Transfer</display-name>
+        <servlet-class>com.pesachoice.controller.impl.web.PCTransferServlet</servlet-class>
+	</servlet>
+    <servlet>
+    <servlet-name>AuthorizationServlet</servlet-name>
+    	<display-name>Authorization</display-name>
+        <servlet-class>com.pesachoice.controller.impl.web.PCAuthorizationServlet</servlet-class>
+	</servlet>
+    <servlet>
+    	<servlet-name>UserServlet</servlet-name>
+    	<display-name>User</display-name>
+        <servlet-class>com.pesachoice.controller.impl.web.PCUserServlet</servlet-class>
+	</servlet>
+	<servlet>
+    	<servlet-name>InquiryServlet</servlet-name>
+    	<display-name>Contact</display-name>
+        <servlet-class>com.pesachoice.controller.impl.web.PCInquiryServlet</servlet-class>
+	</servlet>
+				 
+    <!-- mappings: -->
+    <servlet-mapping>
+    	<servlet-name>SignUpServlet</servlet-name>
+    	<url-pattern>/signup</url-pattern>   
+    	<url-pattern>/issignedup</url-pattern>   
+    	<url-pattern>/invite</url-pattern>  	
+    </servlet-mapping> 
+     
+    <servlet-mapping>
+    	<servlet-name>CommunicationServlet</servlet-name>
+    	<url-pattern>/smsreply</url-pattern>    	
+    </servlet-mapping>
+    
+    <servlet-mapping>
+    	<servlet-name>AdminServlet</servlet-name>
+    	<url-pattern>/admin/transactions</url-pattern>   
+    	<url-pattern>/admin/authenticate</url-pattern>  
+    	<url-pattern>/admin/createuser</url-pattern>  	
+    	<url-pattern>/admin/transfer</url-pattern> 
+    	<url-pattern>/admin/transfer/*</url-pattern> 
+    	<url-pattern>/admin/customers</url-pattern>  
+    	<url-pattern>/admin/customers/*</url-pattern> 
+    </servlet-mapping>
+
+    <servlet-mapping>
+    	<servlet-name>ActivityServlet</servlet-name>
+    	<url-pattern>/activemoneyuser</url-pattern>    
+    	<url-pattern>/activity</url-pattern> 	
+    </servlet-mapping>
+
+     <servlet-mapping>
+    	<servlet-name>TransferServlet</servlet-name>
+    	<url-pattern>/transfer</url-pattern>    	
+    </servlet-mapping>
+    
+    <servlet-mapping>
+    	<servlet-name>AuthorizationServlet</servlet-name>
+    	<url-pattern>/authenticate</url-pattern>    
+    	<url-pattern>/isAuthenticated</url-pattern> 
+    	<url-pattern>/logout</url-pattern> 	
+    </servlet-mapping>
+
+    <servlet-mapping>
+    	<servlet-name>UserServlet</servlet-name>
+    	<url-pattern>/user</url-pattern>    	
+    </servlet-mapping>
+    
+    <servlet-mapping>
+    	<servlet-name>InquiryServlet</servlet-name>
+    	<url-pattern>/contact/request</url-pattern>    	
+    </servlet-mapping>
+                    
+     <welcome-file-list>  
+          <welcome-file>index.html</welcome-file>
+     </welcome-file-list>
+</web-app>

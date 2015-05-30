@@ -1,0 +1,9 @@
+/bin
+/target
+.idea
+*.DS_Store
+.project
+.classpath
+.settings
+.idea/*
+tomcat.8080
