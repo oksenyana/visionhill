@@ -26,6 +26,55 @@
 				<li class="toggle-topbar menu-icon"><a href="#"><span>menu</span></a></li>
 				</ul>
 				<section class="top-bar-section">
+				<ul class="right">
+
+    <li><a href="index.html">Home</a></li>
+    <li class="divider"></li>
+    <li class="has-dropdown">
+        <a href="#">Menu</a>
+        <ul class="dropdown">
+            <!--<li><label>Section Name</label></li>
+            <li class="has-dropdown">
+            <a href="#" class="">Has Dropdown, Level 1</a>
+            <ul class="dropdown">
+            <li><a href="#">Dropdown Options</a></li>
+            <li><a href="#">Dropdown Options</a></li>
+            <li><a href="#">Level 2</a></li>
+            <li><a href="#">Subdropdown Option</a></li>
+            <li><a href="#">Subdropdown Option</a></li>
+            <li><a href="#">Subdropdown Option</a></li>
+            </ul>
+            </li>-->
+            <li><a href="mission.html">Mission</a></li>
+            <li><a href="about_us.html">About</a></li>
+            <li><a href="program_events.html">Event</a></li>
+            <li><a href="leadership.html">Members</a></li>
+            <li><a href="contact_us.html">Contact us</a></li>
+            <!--<li class="divider"></li>
+            <li><label>Section Name</label></li>
+            <li><a href="#">Dropdown Option</a></li>
+            <li><a href="#">Dropdown Option</a></li>
+            <li><a href="#">Dropdown Option</a></li>
+            <li class="divider"></li>
+            <li><a href="#">See all &rarr;</a></li>-->
+        </ul>
+    </li>
+
+    <!--<li class="divider"></li>
+    <li><a href="#">Main Item 2</a></li>
+    <li class="divider"></li>
+    <li class="has-dropdown">
+    <a href="#">Main Item 3</a>
+    <ul class="dropdown">
+    <li><a href="#">Dropdown Option</a></li>
+    <li><a href="#">Dropdown Option</a></li>
+    <li><a href="#">Dropdown Option</a></li>
+    <li class="divider"></li>
+    <li><a href="#">See all &rarr;</a></li>
+    </ul>
+    </li>-->
+</ul>
+
 				</section>
 			</nav>
 			<div class="row">
@@ -42,10 +91,7 @@
 					  <small class="error">An email address is required.</small>
 
 					  <input type="email" placeholder="username@address.com" required>
-					  
-					  <label>Web Address</label>          
-					  <input type="url" placeholder="http://www.url.com">
-					  
+
 					  <label>Your Message</label>
 					  <small class="error">Your message is required.</small>
 					  <textarea placeholder="Enter your message here" required></textarea>
@@ -53,7 +99,18 @@
 					<input type="submit" class="nice blue radius button" value="Send Message"></button></a>
 					</form>
 				</div><!--end 8 columns-->
-				  <script>
+			</div>
+		</body>
+		<footer class="row" >
+				<div class="large-12 columns"> <hr>
+					<div class="row">
+						<div class="large-12 columns"  style=" text-align: center; " >
+							<p>&copy; Copyright Rebakure.</p>
+						</div>
+					</div>
+				</div>
+		</footer>
+						  <script>
 				  $(document).foundation();
 				</script>
 			  
@@ -68,22 +125,20 @@
 				console.log('valid!');
 			  });   
 			  </script>
-		</body>
-		<footer class="row">
-				<div class="large-12 columns"><hr>
-				<div class="row">
-				<div class="large-12 columns" style="text-align: center;">
-				<p>&copy; Copyright Rebakure.</p>
-				</div>
-				<!--<div class="large-6 small-12 columns">
-				<ul class="inline-list right">
-				<li><a href="#">Link 1</a></li>
-				<li><a href="#">Link 2</a></li>
-				<li><a href="#">Link 3</a></li>
-				<li><a href="#">Link 4</a></li>
-				</ul>
-				</div>-->
-				</div>
-				</div>
-			</footer>
+			  <script>
+				  document.write('<script src=js/vendor/' +
+				  ('__proto__' in {} ? 'zepto' : 'jquery') +
+				  '.js><\/script>')
+				</script>
+				<script>
+				    $(document).foundation();
+				</script>
+				<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+				<script src="scripts/foundation.js"></script>
+				<script>
+				      $(document).foundation();
+
+				      var doc = document.documentElement;
+				      doc.setAttribute('data-useragent', navigator.userAgent);
+				    </script>
 </html>
