@@ -1,0 +1,89 @@
+<!doctype html>
+<!--[if IE 9]><html class="lt-ie10" lang="en" > <![endif]-->
+	<html class="no-js" lang="en" data-useragent="Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; Trident/6. )">
+		<head>
+			<meta charset="utf-8"/>
+			<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+			<title>Rebakure | Contact Us</title>
+			<meta name="description" content="Documentation and reference library for ZURB Foundation. JavaScript, CSS, components, grid and more."/>
+			<meta name="author" content="ZURB, inc. ZURB network also includes zurb.com"/>
+			<meta name="copyright" content="Rebakure, inc. Copyright (c) 2015"/>
+			<link rel="stylesheet" href="styles/foundation.css"/>
+			<script src="scripts/modernizr.js"></script>
+			<script src="js/vendor/jquery.js"></script>
+			<script src="js/foundation.min.js"></script>
+			<script src="js/foundation/foundation.abide.js"></script>
+  		</head>
+		<body> 
+			<nav class="top-bar" data-topbar>
+				<ul class="title-area">
+				 
+				<li class="name">
+					<h1> 
+						<a href="#">Rebakure</a>
+					</h1>
+				</li>
+				<li class="toggle-topbar menu-icon"><a href="#"><span>menu</span></a></li>
+				</ul>
+				<section class="top-bar-section">
+				</section>
+			</nav>
+			<div class="row">
+
+				<div id="contactForm" class="small-8 medium-8 large-8 columns">
+				  <form id="myForm" method="post" data-abide>  
+					  
+					  <h5>Contact Us</h5>
+					  <label>Name</label>
+					  <small class="error">Your full name is required.</small>
+					  <input type="text" placeholder="Full Name" required>
+					  
+					  <label>Email</label>
+					  <small class="error">An email address is required.</small>
+
+					  <input type="email" placeholder="username@address.com" required>
+					  
+					  <label>Web Address</label>          
+					  <input type="url" placeholder="http://www.url.com">
+					  
+					  <label>Your Message</label>
+					  <small class="error">Your message is required.</small>
+					  <textarea placeholder="Enter your message here" required></textarea>
+					  
+					<input type="submit" class="nice blue radius button" value="Send Message"></button></a>
+					</form>
+				</div><!--end 8 columns-->
+				  <script>
+				  $(document).foundation();
+				</script>
+			  
+			  
+			  <script>
+			$('#myForm')
+			  .on('invalid', function () {
+				var invalid_fields = $(this).find('[data-invalid]');
+				console.log(invalid_fields);
+			  })
+			  .on('valid', function () {
+				console.log('valid!');
+			  });   
+			  </script>
+		</body>
+		<footer class="row">
+				<div class="large-12 columns"><hr>
+				<div class="row">
+				<div class="large-12 columns" style="text-align: center;">
+				<p>&copy; Copyright Rebakure.</p>
+				</div>
+				<!--<div class="large-6 small-12 columns">
+				<ul class="inline-list right">
+				<li><a href="#">Link 1</a></li>
+				<li><a href="#">Link 2</a></li>
+				<li><a href="#">Link 3</a></li>
+				<li><a href="#">Link 4</a></li>
+				</ul>
+				</div>-->
+				</div>
+				</div>
+			</footer>
+</html>
