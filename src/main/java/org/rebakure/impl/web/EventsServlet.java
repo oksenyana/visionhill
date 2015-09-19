@@ -9,8 +9,8 @@ import javax.servlet.http.HttpServletResponse;
 
 
 @WebServlet(
-	    name = "ContactServlet", 
-	    urlPatterns = {"/contact"}
+	    name = "EventsServlet", 
+	    urlPatterns = {"/events"}
 	)
 public class EventsServlet extends RebakureServlet {
 	private static final long serialVersionUID = 1L;
