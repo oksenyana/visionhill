@@ -23,7 +23,7 @@ rebakure contributors
 
   * Developer
   
-* **[Maurice Ntare](https://github.com/intarebatinya)**
+* **[Maurice Ntare](https://github.com/Intarebatinya)**
 
   * Developer
   
