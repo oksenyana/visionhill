@@ -1,0 +1,169 @@
+<!doctype html>
+<!--[if IE 9]><html class="lt-ie10" lang="en" > <![endif]-->
+	<html class="no-js" lang="en" data-useragent="Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; Trident/6. )">
+		<head>
+			<meta charset="utf-8"/>
+			<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+			<title>Rebakure | Contact Us</title>
+			<meta name="description" content="Documentation and reference library for ZURB Foundation. JavaScript, CSS, components, grid and more."/>
+			<meta name="author" content="ZURB, inc. ZURB network also includes zurb.com"/>
+			<meta name="copyright" content="Rebakure, inc. Copyright (c) 2015"/>
+			<link rel="stylesheet" href="styles/foundation.css"/>
+			<script src="scripts/modernizr.js"></script>
+			<script src="js/vendor/jquery.js"></script>
+			<script src="js/foundation.min.js"></script>
+			<script src="js/foundation/foundation.abide.js"></script>
+  		</head>
+		<body> 
+			<nav class="top-bar" data-topbar>
+				<ul class="title-area">
+				 
+				<li class="name">
+					<h1> 
+						<a href="#">Rebakure</a>
+					</h1>
+				</li>
+				<li class="toggle-topbar menu-icon"><a href="#"><span>menu</span></a></li>
+				</ul>
+				<section class="top-bar-section">
+				<ul class="right">
+
+    <li><a href="index.html">Home</a></li>
+    <li class="divider"></li>
+    <li class="has-dropdown">
+        <a href="#">Menu</a>
+        <ul class="dropdown">
+            <!--<li><label>Section Name</label></li>
+            <li class="has-dropdown">
+            <a href="#" class="">Has Dropdown, Level 1</a>
+            <ul class="dropdown">
+            <li><a href="#">Dropdown Options</a></li>
+            <li><a href="#">Dropdown Options</a></li>
+            <li><a href="#">Level 2</a></li>
+            <li><a href="#">Subdropdown Option</a></li>
+            <li><a href="#">Subdropdown Option</a></li>
+            <li><a href="#">Subdropdown Option</a></li>
+            </ul>
+            </li>-->
+            <li><a href="mission.html">Mission</a></li>
+            <li><a href="about_us.html">About</a></li>
+            <li><a href="program_events.html">Events</a></li>
+            <li><a href="leadership.html">Members</a></li>
+            <li><a href="contact_us.html">Contact us</a></li>
+            <!--<li class="divider"></li>
+            <li><label>Section Name</label></li>
+            <li><a href="#">Dropdown Option</a></li>
+            <li><a href="#">Dropdown Option</a></li>
+            <li><a href="#">Dropdown Option</a></li>
+            <li class="divider"></li>
+            <li><a href="#">See all &rarr;</a></li>-->
+        </ul>
+    </li>
+
+    <!--<li class="divider"></li>
+    <li><a href="#">Main Item 2</a></li>
+    <li class="divider"></li>
+    <li class="has-dropdown">
+    <a href="#">Main Item 3</a>
+    <ul class="dropdown">
+    <li><a href="#">Dropdown Option</a></li>
+    <li><a href="#">Dropdown Option</a></li>
+    <li><a href="#">Dropdown Option</a></li>
+    <li class="divider"></li>
+    <li><a href="#">See all &rarr;</a></li>
+    </ul>
+    </li>-->
+</ul>
+
+				</section>
+			</nav>
+			<div class="row">
+
+				<div id="contactForm" class="small-8 medium-8 large-8 columns">
+				  <form id="myForm" method="post" data-abide>  
+					  
+					  <h5>Sign Up</h5>
+					  <label>First Name</label>
+					  <small class="error">Your full name is required.</small>
+					  <input type="text" name= "firstName" placeholder="First Name" required>
+
+					  <label>Last Name</label>
+					  <small class="error">Your full name is required.</small>
+					  <input type="text" name="lastName" placeholder="Last Name" required>
+					  
+					  <label>Email</label>
+					  <small class="error">An email address is required.</small>
+					  <input type="email" name="email" placeholder="username@address.com" required>
+
+					  <label>Phone</label>
+					  <small class="error">Your Phone Number is required</small>
+					  <input type="email" name="phone" placeholder="405-111-1000" required>
+
+					  <label>State</label>
+					  <small class="error">Your Phone Number is required</small>
+					  <input type="text" name="state" placeholder="OK">
+
+					  <label>City</label>
+					  <input type="text" name="city" placeholder="OKC,...">
+
+					  <label>Country</label>
+					  <input type="text" name="country" placeholder="US, Rwanda,...">
+
+					  <label>Your Interests</label>
+					  <textarea name="interest" placeholder="Enter your message here"></textarea>
+					  
+					<input type="submit" class="nice blue radius button" value="Sign Up"></button></a>
+					</form>
+				</div><!--end 8 columns-->
+			</div>
+		</body>
+		<footer class="row" >
+				<div class="large-12 columns"> <hr>
+					<div class="row">
+						<div class="large-12 columns"  style=" text-align: center; " >
+							<p>&copy; Copyright Rebakure.</p>
+						</div>
+					</div>
+				</div>
+		</footer>			  
+			  <script>
+				  document.write('<script src=js/vendor/' +
+				  ('__proto__' in {} ? 'zepto' : 'jquery') +
+				  '.js><\/script>')
+				</script>
+				<!-- <script>
+				    $(document).foundation();
+				</script> -->
+				<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+				<script src="scripts/foundation.js"></script>
+				<script>
+				    $(document).foundation();
+
+				    var doc = document.documentElement;
+				    doc.setAttribute('data-useragent', navigator.userAgent);
+
+				    function getValues(e) {
+				    	var target = e && e.target,
+				    		inputs, val = {}, v, a;
+
+				    	if (target) {
+				    		inputs = $(target).find('input');
+
+				    		for (var i = inputs.length - 1; i >= 0; i--) {
+				    			v = $(inputs[i]).val();
+				    			a = $(inputs[i]).attr('name');
+				    			if (v && a) {
+				    				val[a] = v;
+				    			}
+				    		}
+				    		console.log('Form Data: ', val);
+				    	}
+				    }
+
+				    $('#myForm')
+						.on('submit', function(e){
+							getValues(e);
+							alert('Submit Form is clicked');
+						}); 
+				</script>
+</html>
