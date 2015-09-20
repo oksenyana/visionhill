@@ -1,4 +1,4 @@
-package org.rebakure.impl.web;
+package org.visionhill.impl.web;
 
 import java.io.IOException;
 
@@ -12,7 +12,7 @@ import javax.servlet.http.HttpServletResponse;
 	    name = "SignUpServlet", 
 	    urlPatterns = {"/signup"}
 	)
-public class SignUpServlet extends RebakureServlet {
+public class SignUpServlet extends VisionHillServlet {
 	private static final long serialVersionUID = 1L;
 
 	

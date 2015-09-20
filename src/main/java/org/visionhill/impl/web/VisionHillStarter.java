@@ -1,4 +1,4 @@
-package org.rebakure.impl.web;
+package org.visionhill.impl.web;
 
 import java.io.File;
 
@@ -6,7 +6,7 @@ import javax.servlet.http.HttpServlet;
 
 import org.apache.catalina.startup.Tomcat;
 
-public class RebakureStarter extends HttpServlet {
+public class VisionHillStarter extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 
     public static void main(String[] args) throws Exception {
@@ -19,7 +19,7 @@ public class RebakureStarter extends HttpServlet {
           }
           tomcat.setPort(Integer.valueOf(webPort));
           tomcat.addWebapp("/", new File(webappDirLoc).getAbsolutePath());
-          System.out.println("configuring rebakure with basedir: " + new File("./" + webappDirLoc).getAbsolutePath());
+          System.out.println("configuring visionhill with basedir: " + new File("./" + webappDirLoc).getAbsolutePath());
           tomcat.start();
           tomcat.getServer().await();  
     }

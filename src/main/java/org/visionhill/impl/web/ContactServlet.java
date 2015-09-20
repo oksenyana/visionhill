@@ -1,10 +1,10 @@
-package org.rebakure.impl.web;
+package org.visionhill.impl.web;
 
 import java.io.IOException;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
-import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletRequest; 
 import javax.servlet.http.HttpServletResponse;
 
 
@@ -12,7 +12,7 @@ import javax.servlet.http.HttpServletResponse;
 	    name = "ContactServlet", 
 	    urlPatterns = {"/contact"}
 	)
-public class ContactServlet extends RebakureServlet {
+public class ContactServlet extends VisionHillServlet {
 	private static final long serialVersionUID = 1L;
 
 	

@@ -1,1 +1,1 @@
-web:    java $JAVA_OPTS -cp target/classes:target/dependency/* org.rebakure.impl.web.RebakureStarter
+web:    java $JAVA_OPTS -cp target/classes:target/dependency/* org.visionhill.impl.web.visionhillStarter

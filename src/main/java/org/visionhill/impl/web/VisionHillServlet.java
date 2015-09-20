@@ -1,4 +1,4 @@
-package org.rebakure.impl.web;
+package org.visionhill.impl.web;
 
 import java.io.IOException;
 
@@ -7,7 +7,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-public abstract class RebakureServlet extends HttpServlet {
+public abstract class VisionHillServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 	
 	/**

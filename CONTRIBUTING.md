@@ -1,4 +1,4 @@
-rebakure contributors
+visionhill contributors
 ============================================
 
 * **[Odilon Senyana](https://github.com/oksenyana)**

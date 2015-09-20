@@ -5,16 +5,13 @@
     "http://java.sun.com/j2ee/dtds/web-app_2_2.dtd">
 	
 <web-app>
-	<display-name>Rebakure</display-name>
+	<display-name>visionhill</display-name>
 	<description>Forum for Rwandan community to share ideas</description>
-	<session-config>
-    	<session-timeout>5</session-timeout>
-  	</session-config>
 	<!-- servlets: -->
     <servlet>
     	<servlet-name>SignUpServlet</servlet-name>
     	<display-name>SignUp</display-name>
-        <servlet-class>org.rebakure.impl.web.SignUpServlet</servlet-class>
+        <servlet-class>org.visionhill.impl.web.SignUpServlet</servlet-class>
 	</servlet>
 				 
     <!-- mappings: -->
@@ -22,7 +19,10 @@
     	<servlet-name>SignUpServlet</servlet-name>
     	<url-pattern>/signup</url-pattern>   	
     </servlet-mapping> 
-               
+    
+	<session-config>
+    	<session-timeout>5</session-timeout>
+  	</session-config>               
      <welcome-file-list>  
           <welcome-file>index.html</welcome-file>
      </welcome-file-list>

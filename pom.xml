@@ -1,10 +1,10 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>org.rebakure</groupId>
-  <artifactId>org.rebakure.community</artifactId>
+  <groupId>org.visionhill.community</groupId>
+  <artifactId>visionhill</artifactId>
   <version>1.0.0</version>
   <packaging>war</packaging>
-  <name>REBAKURE</name>
+  <name>VISIONHILL</name>
   <url>http://maven.apache.org</url>
   <properties>
     <tomcat.version>7.0.50</tomcat.version>
@@ -96,7 +96,7 @@
 	</dependency>
   </dependencies>
   <build>
-    <finalName>rebakure</finalName>
+    <finalName>visionhill</finalName>
     <plugins>
         <plugin> 
            <groupId>org.apache.maven.plugins</groupId> 
@@ -116,7 +116,7 @@
                 <assembleDirectory>target</assembleDirectory>
                 <programs>
                     <program>
-                        <mainClass>org.rebakure.impl.web.RebakureStarter</mainClass>
+                        <mainClass>org.visionhill.impl.web.visionhillStarter</mainClass>
                         <name>webapp</name>
                     </program>
                 </programs>

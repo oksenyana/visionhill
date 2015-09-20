@@ -1,4 +1,4 @@
-package org.rebakure.impl.web;
+package org.visionhill.impl.web;
 
 import java.io.IOException;
 
@@ -10,9 +10,9 @@ import javax.servlet.http.HttpServletResponse;
 
 @WebServlet(
 	    name = "EventsServlet", 
-	    urlPatterns = {"/events"}
+	    urlPatterns = {"/events/read"}
 	)
-public class EventsServlet extends RebakureServlet {
+public class EventsServlet extends VisionHillServlet {
 	private static final long serialVersionUID = 1L;
 
 	
