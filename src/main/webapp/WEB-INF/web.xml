@@ -13,16 +13,35 @@
     	<display-name>SignUp</display-name>
         <servlet-class>org.visionhill.impl.web.SignUpServlet</servlet-class>
 	</servlet>
+	<servlet>
+    	<servlet-name>ContactServlet</servlet-name>
+    	<display-name>contactUs</display-name>
+        <servlet-class>org.visionhill.impl.web.ContactServlet</servlet-class>
+	</servlet>
+	<servlet>
+    	<servlet-name>EventsServlet</servlet-name>
+    	<display-name>events</display-name>
+        <servlet-class>org.visionhill.impl.web.EventsServlet</servlet-class>
+	</servlet>
 				 
     <!-- mappings: -->
     <servlet-mapping>
     	<servlet-name>SignUpServlet</servlet-name>
     	<url-pattern>/signup</url-pattern>   	
     </servlet-mapping> 
+    <servlet-mapping>
+    	<servlet-name>ContactServlet</servlet-name>
+    	<url-pattern>/contact</url-pattern>   	
+    </servlet-mapping> 
+    <servlet-mapping>
+    	<servlet-name>EventsServlet</servlet-name>
+    	<url-pattern>/events/read</url-pattern>   	
+    </servlet-mapping> 
     
 	<session-config>
     	<session-timeout>5</session-timeout>
-  	</session-config>               
+  	</session-config>       
+  	        
      <welcome-file-list>  
           <welcome-file>index.html</welcome-file>
      </welcome-file-list>
