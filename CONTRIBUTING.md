@@ -23,7 +23,7 @@ visionhill contributors
 
   * Developer
   
-* **[Maurice Ntare](https://github.com/Intarebatinya)**
+* **[Maurice Ntwari](https://github.com/Intarebatinya)**
 
   * Developer
   
