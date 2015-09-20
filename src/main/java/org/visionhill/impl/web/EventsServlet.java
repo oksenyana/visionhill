@@ -2,6 +2,7 @@ package org.visionhill.impl.web;
 
 import java.io.IOException;
 
+import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServletRequest;
@@ -21,7 +22,8 @@ public class EventsServlet extends VisionHillServlet {
 	 */
 	@Override
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-		//TODO: missing implementation
+		RequestDispatcher dispatcher=req.getRequestDispatcher("test.jsp");
+		dispatcher.forward(req, resp);
 	}
 
 	
