@@ -1,1 +1,1 @@
-web:    java $JAVA_OPTS -cp target/classes:target/dependency/* org.visionhill.impl.web.visionhillStarter
+web:    java $JAVA_OPTS -cp target/classes:target/dependency/* org.visionhill.impl.web.VisionhillStarter

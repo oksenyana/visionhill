@@ -116,7 +116,7 @@
                 <assembleDirectory>target</assembleDirectory>
                 <programs>
                     <program>
-                        <mainClass>org.visionhill.impl.web.visionhillStarter</mainClass>
+                        <mainClass>org.visionhill.impl.web.VisionhillStarter</mainClass>
                         <name>webapp</name>
                     </program>
                 </programs>
