@@ -80,21 +80,21 @@
 			<div class="row">
 
 				<div id="contactForm" class="small-8 medium-8 large-8 columns">
-				  <form id="myForm" method="post" data-abide>  
+				  <form id="myForm" action="contact" method="post" data-abide>  
 					  
 					  <h5>Contact Us</h5>
 					  <label>Name</label>
 					  <small class="error">Your full name is required.</small>
-					  <input type="text" placeholder="Full Name" required>
+					  <input name="sender" type="text" placeholder="Full Name" required>
 					  
 					  <label>Email</label>
 					  <small class="error">An email address is required.</small>
 
-					  <input type="email" placeholder="username@address.com" required>
+                                          <input name="senderEmail" type="email" placeholder="username@address.com" required>
 
 					  <label>Your Message</label>
 					  <small class="error">Your message is required.</small>
-					  <textarea placeholder="Enter your message here" required></textarea>
+                                          <textarea name="message" placeholder="Enter your message here" required></textarea>
 					  
 					<input type="submit" class="nice blue radius button" value="Send Message"></button></a>
 					</form>
