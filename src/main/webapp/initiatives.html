@@ -1,11 +1,45 @@
 <!DOCTYPE html>
 <html>	
-		<title>VisionHill | Leadership </title>
+		<title>VisionHill | Initiatives </title>
 		<meta name="description" content="Documentation and reference library for ZURB Foundation. JavaScript, CSS, components, grid and more."/>
 		<meta name="author" content="ZURB, inc. ZURB network also includes zurb.com"/>
 		<meta name="copyright" content="Visionhill, inc. Copyright (c) 2015"/>
 		<link rel="stylesheet" href="styles/foundation.css"/>
 		<script src="scripts/modernizr.js"></script>
+		<script>
+		function myFunction() {
+    if(document.getElementById("validatetext").value =="kayezu")
+	{
+    document.getElementById("validateprompt").innerHTML = "Correct Key, See below member rescources";
+	document.getElementById("membercontent").style.visibility = "visible";
+	
+	}
+	else
+	{
+	document.getElementById("validateprompt").innerHTML = "Not correct, Try Again, Enter Member Access Code below and click submit";
+	document.getElementById("membercontent").style.visibility = "hidden";
+	}
+	
+	
+}
+
+		</script>
+		<style> 
+input[type=text],input[type=submit] {
+   
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 4px;
+	max-width:200px;
+	display:inline;
+}
+</style>
+<style>
+			.underline a{
+			text-decoration: underline;}
+			</style>
 	</head>
 	<body>
 		<nav class="top-bar" data-topbar>
@@ -73,32 +107,32 @@
 				</section>
 		</nav>
 	<div class="row">
-	    <p > <strong>Coordination Committee</strong></p>
+	    <p > <strong>Initatives</strong></p>
 	    <p style="max-width:800px">
-		VisionHill shall have a formal leadership to insure successful operations and activity oversight. 
-		The President/coordinator general shall formulate and announce annual program every year in consultation with the team.
+		Below are some of our initiatives:
 		
 		</p>
 	    <ul>
-	        <li>Coordinator/General and President</li>
-	        <li>Coordinator/Technology and Vice President</li>
-	        <li>Coordinator/Membership and Community</li>
-	        <li>Coordinator/Finance and Documentation</li>
-	        <li>Coordinator/Events and Programs</li>
-			<li>Coordinator/VisionHill Member Fund RW</li>
-			<li>Coordinator/VisionHill Member Fund US</li>
+	        <li>VisionHill Workshops</li>
+	        <li>VisionHill Hackathons</li>
+	        <li>VisionHill Investperity Fund</li>
+	
 	    </ul>
-        <p> <strong>Advancement Council</strong></p>
-        <p style="max-width:800px">The role of the advancement committee shall be to serve as a guardian of the organization in the
-        advisory capacity working with the president primarily to designate the following president.
-        The Council shall meet twice a year on the third week from 10AM to 12AM in June (To evaluate annual program progress)
-		and in November (To Evaluate Annual Program and advise on the following year program)</p>
-<ul>
-            <li>VisionHill Past Presidents</li>
-	        <li>VisionHill Initiators</li>
-			<li>VisionHill Elders Advisors</li>
-	        <li>OKC/OC familia co-Presidents (Ex-officio)</li>
-	        <li>Tulsa Rwanda Community President (Ex-officio)</li>
+        <p> <strong>Member Access</strong></p>
+        <p style="max-width:800px"> <span id="validateprompt">Enter Member Access Code below and click submit</span></p>
+		<p>   
+		<input type="text" id="validatetext" value=""> <input type="submit" value="Submit and access" onclick="myFunction()">
+		
+		</p>
+<ul id="membercontent" style="visibility:hidden">
+
+         <span class="underline">
+			 <li><a href="https://drive.google.com/file/d/0B9bOgSA2bACaOXVCUDJ4QTU3ZEk/view?usp=sharing" target="_blank">VisionHill Trust/Investperity Fund Scheme</a></li>
+			<li><a href="https://drive.google.com/file/d/0B9bOgSA2bACaUXBlelNQQTFucFE/view?usp=sharing" target="_blank">VisionHill Trust/Investperity Fund Implementation Plan</a></li>
+			<li><a href="https://drive.google.com/folderview?id=0B9bOgSA2bACab0oxN1RJYjRDVWc&usp=sharing" target="_blank">VisionHill Trust/Invesperity Fund Reports</a></li>
+			
+			</span>
+			
 	    </ul>
 	  
 	   
